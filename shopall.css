@@ -1,0 +1,35 @@
+*{
+     background-color: #F5E6D3;
+}
+h1{
+    background-color:plum;
+    text-align: center;
+    font-family: Lucida Sans;
+    color: chocolate;
+}
+.sort{
+    display: block;
+    text-align: right;
+}
+h2{
+    text-align: center;
+    colour:chocolate;
+}
+h3{ text-align: center;
+    colour:chocolate;
+}
+
+.display-space{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 30px;
+}
+.pro{
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+.display-space-cards{
+    text-align: center;
+}
